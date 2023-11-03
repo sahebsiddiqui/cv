@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border: 1px solid black;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba (0,0,0,0,1) ;
+    border: 1px solid black;
+
+}
+
+.container .left_side{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}   
+.profiletext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+ border-bottom: 1px solid white;
+
+}
+
+.profiletext .imgbx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  
+}
+.profiletext .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profiletext h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+.profiletext h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactinfo{
+    padding-top: 10%;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactinfo ul{
+    position: relative;
+}
+.contactinfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    color: white;
+}
+.li{
+    margin: 15px ;
+}
+
+.contactinfo .education h4{
+    color: #fff;
+}
+h5{
+    font-size: large;
+    color: aqua;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+ .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+ .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+
+.container .right_side{
+    position: relative;
+    background: rgb(250, 250, 251);
+    padding: 40px;
+
+}
+.about{
+    margin-bottom: 50px;
+}
+.about  :last-child{
+    margin-bottom: 0;
+}
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: #333;
+    font-size: large;
+}
+.year_company h5{
+    color: #003147;
+}
+.about .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+.skill .box .percent{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
